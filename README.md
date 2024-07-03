@@ -5,29 +5,14 @@
 ![TypeScript](https://img.shields.io/badge/type%20script-%23002538.svg?style=for-the-badge&logo=typescript&logoColor=%233179C7)
 ![JavaScript](https://img.shields.io/badge/java%20script-%23223300.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-# TypeScript Dərsləri Azərbaycan dilin də
-
-## Saf TypeScript yükləmə, quraşdırma:
-
-```bash
-npm install -g typescript
-
-tsc -v
-
-npm install -g ts-node  "TypeScript faylını sadəcə konsol daxilin də işə salır.
-                         Javascript faylı açmadan sadəcə konsolda görmək üçün istifadə olunur."
-
-```
-
-## TypeScript lahiyəsini işə salmaq:
-
+## Starting TypeScript:
 ```bash
 
 tsc lesson.ts
 
-tsc lesson.ts --w  "Lahiyə daxilin də bu cür işə salın, iş mühitin də rahatlıq yaradır."
+tsc lesson.ts --w
 
-ts-node lesson.ts  "Konsol daxilin də öyrənərkən işə salmaq üçün."
+ts-node lesson.ts  
 
 ```
 
@@ -39,7 +24,7 @@ git add .
 
 git commit -m "message"
 
-git remote add origin https://github.com/knvmrt/typescript-lessons.git
+git remote add origin https://github.com/knvmrt/web-calculator-v0.0.1.git
 
 git push -u origin master
 
