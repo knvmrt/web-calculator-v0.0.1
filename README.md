@@ -15,17 +15,3 @@ tsc lesson.ts --w
 ts-node lesson.ts  
 
 ```
-
-## GitHub:
-
-```bash
-
-git add .
-
-git commit -m "message"
-
-git remote add origin https://github.com/knvmrt/web-calculator-v0.0.1.git
-
-git push -u origin master
-
-```
